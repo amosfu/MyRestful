@@ -2,14 +2,17 @@
 <project version="4">
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
+      <artifact name="MyRestful:war exploded" />
       <artifact name="MyRestfulWar" />
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dcad9f0b-af6b-47eb-a117-13626cef228d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/addTest" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/MyRestful/META-INF/README" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/MyRestful/MyRestfulWar.war" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/MyRestful/MyRestfulWar.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/MyRestful/WEB-INF/classes/hello/GreetingController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/MyRestful/WEB-INF/classes/hello/GreetingController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/hello/GreetingController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/hello/GreetingController.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -57,11 +60,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/hello/GreetingController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="9" column="33" selection-start-line="9" selection-start-column="33" selection-end-line="9" selection-end-column="33" />
+            <state relative-caret-position="266">
+              <caret line="20" column="72" selection-start-line="20" selection-start-column="72" selection-end-line="20" selection-end-column="72" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#471#472#0" expanded="true" />
@@ -71,7 +74,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/addTest">
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
@@ -205,6 +208,50 @@
               <item name="MyRestful" type="b2602c69:ProjectViewProjectNode" />
               <item name="MyRestful" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="MyRestful" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MyRestful" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MyRestful" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MyRestful" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+              <item name="artifacts" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MyRestful" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MyRestful" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+              <item name="artifacts" type="462c0819:PsiDirectoryNode" />
+              <item name="MyRestful" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MyRestful" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MyRestful" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MyRestful" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MyRestful" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MyRestful" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MyRestful" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MyRestful" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MyRestful" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="hello" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -224,7 +271,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.42812824" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
@@ -405,7 +452,7 @@
       <workItem from="1566072010981" duration="129000" />
       <workItem from="1566083248383" duration="655000" />
       <workItem from="1566160287944" duration="2726000" />
-      <workItem from="1566228584407" duration="2733000" />
+      <workItem from="1566228584407" duration="3587000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1566161876205</created>
@@ -463,15 +510,28 @@
       <option name="project" value="LOCAL" />
       <updated>1566246075498</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="initial commit">
+      <created>1566247733314</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1566247733314</updated>
+    </task>
+    <task id="LOCAL-00010" summary="initial commit">
+      <created>1566250492441</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1566250492441</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21138000" />
+    <option name="totallyTimeSpent" value="21992000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2751678" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -757,10 +817,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/addTest">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/hello/GreetingController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="33" selection-start-line="9" selection-start-column="33" selection-end-line="9" selection-end-column="33" />
+        <state relative-caret-position="266">
+          <caret line="20" column="72" selection-start-line="20" selection-start-column="72" selection-end-line="20" selection-end-column="72" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#471#472#0" expanded="true" />
@@ -769,20 +832,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/addTest">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
   </component>
   <component name="masterDetails">
     <states>
       <state key="ArtifactsStructureConfigurable.UI">
         <settings>
           <artifact-editor />
-          <last-edited>MyRestful:war exploded</last-edited>
+          <last-edited>MyRestfulWar</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.42812824" />
+                <option value="0.5" />
               </list>
             </option>
           </splitter-proportions>
