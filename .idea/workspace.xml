@@ -2,58 +2,12 @@
 <project version="4">
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
+      <artifact name="MyRestful:war exploded" />
       <artifact name="api" />
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dcad9f0b-af6b-47eb-a117-13626cef228d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/amos/controller/GreetingController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/MyRestful_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/MyRestful_war_exploded.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/api.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/api.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/MyRestful/META-INF/MANIFEST.MF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/MyRestful/META-INF/README" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/MyRestful/META-INF/context.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/MyRestful/WEB-INF/classes/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/MyRestful/WEB-INF/classes/com/amos/bean/Account$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/MyRestful/WEB-INF/classes/com/amos/bean/Account$Builder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/MyRestful/WEB-INF/classes/com/amos/bean/Account.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/MyRestful/WEB-INF/classes/com/amos/controller/AccountController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/MyRestful/WEB-INF/classes/com/amos/mapper/AccountMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/MyRestful/WEB-INF/classes/com/amos/service/AccountService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/MyRestful/WEB-INF/classes/com/amos/service/AccountServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/MyRestful/WEB-INF/lib/jackson-annotations-2.9.9.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/MyRestful/WEB-INF/lib/jackson-core-2.9.9.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/MyRestful/WEB-INF/lib/jackson-databind-2.9.9.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/MyRestful/WEB-INF/lib/mybatis-3.5.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/MyRestful/WEB-INF/lib/mybatis-spring-2.0.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/MyRestful/WEB-INF/lib/mysql-connector-java-8.0.17.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/MyRestful/WEB-INF/lib/protobuf-java-3.6.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/MyRestful/WEB-INF/lib/spring-aop-5.1.9.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/MyRestful/WEB-INF/lib/spring-beans-5.1.9.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/MyRestful/WEB-INF/lib/spring-context-5.1.9.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/MyRestful/WEB-INF/lib/spring-core-5.1.9.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/MyRestful/WEB-INF/lib/spring-expression-5.1.9.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/MyRestful/WEB-INF/lib/spring-jcl-5.1.9.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/MyRestful/WEB-INF/lib/spring-jdbc-5.1.9.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/MyRestful/WEB-INF/lib/spring-tx-5.1.9.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/MyRestful/WEB-INF/lib/spring-web-5.1.9.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/MyRestful/WEB-INF/lib/spring-webmvc-5.1.9.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/MyRestful/WEB-INF/spring/app-context.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/MyRestful/WEB-INF/spring/dispatcher-config.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/MyRestful/WEB-INF/web.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/MyRestful/api.war" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/amos/bean/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/amos/bean/Account.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/amos/controller/AccountController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/amos/controller/AccountController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/amos/mapper/AccountMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/amos/mapper/AccountMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/amos/service/AccountService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/amos/service/AccountService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/amos/service/AccountServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/amos/service/AccountServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/amos/bean/Account$Builder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/amos/bean/Account$Builder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/amos/bean/Account.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/amos/bean/Account.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/amos/controller/AccountController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/amos/controller/AccountController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/amos/service/AccountServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/amos/service/AccountServiceImpl.class" afterDir="false" />
-    </list>
+    <list default="true" id="dcad9f0b-af6b-47eb-a117-13626cef228d" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -300,6 +254,11 @@
             <path>
               <item name="MyRestful" type="b2602c69:ProjectViewProjectNode" />
               <item name="MyRestful" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MyRestful" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MyRestful" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="MyRestful" type="b2602c69:ProjectViewProjectNode" />
@@ -753,7 +712,7 @@
       <workItem from="1567379345236" duration="1439000" />
       <workItem from="1567434195738" duration="2811000" />
       <workItem from="1567466648684" duration="603000" />
-      <workItem from="1567647016969" duration="12026000" />
+      <workItem from="1567647016969" duration="12268000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1566161876205</created>
@@ -930,11 +889,25 @@
       <option name="project" value="LOCAL" />
       <updated>1567651354059</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="initial commit">
+      <created>1567662994044</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1567662994044</updated>
+    </task>
+    <task id="LOCAL-00027" summary="initial commit">
+      <created>1567663060092</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1567663060092</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="63302000" />
+    <option name="totallyTimeSpent" value="63544000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
