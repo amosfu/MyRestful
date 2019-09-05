@@ -9,5 +9,7 @@ public interface AccountService {
 
     int createAccount(String name);
 
+    int deleteAccount(int id);
+
     Account[] selectAll();
 }

@@ -1,7 +1,5 @@
 package com.amos.bean;
 
-import org.springframework.stereotype.Component;
-
 public class Account {
     private int id;
     private String name;

@@ -7,9 +7,9 @@ import org.springframework.stereotype.Component;
 
 @Component
 public class AccountServiceImpl implements AccountService {
-    @Autowired
     private final AccountMapper accountMapper;
 
+    @Autowired
     public AccountServiceImpl(AccountMapper accountMapper) {
         this.accountMapper = accountMapper;
     }
@@ -24,6 +24,11 @@ public class AccountServiceImpl implements AccountService {
         Account insertObj = new Account.Builder(name).build();
         accountMapper.insertAccount(insertObj);
         return insertObj.getId();
+    }
+
+    @Override
+    public int deleteAccount(int id) {
+        return accountMapper.deleteAccountByID(id);
     }
 
     @Override

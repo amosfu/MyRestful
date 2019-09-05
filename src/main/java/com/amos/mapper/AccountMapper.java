@@ -14,6 +14,9 @@ public interface AccountMapper {
     @Options(useGeneratedKeys = true, keyProperty = "id")
     int insertAccount(Account account);
 
+    @Delete("delete from account where id = #{id}")
+    int deleteAccountByID(int id);
+
     @Select("select * from account")
     Account[] selectAll();
 }
