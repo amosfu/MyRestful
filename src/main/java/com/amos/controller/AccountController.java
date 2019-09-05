@@ -3,13 +3,10 @@ package com.amos.controller;
 import com.amos.bean.Account;
 import com.amos.service.AccountService;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestMethod;
-import org.springframework.web.bind.annotation.RequestParam;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 @RestController
-@RequestMapping("/")
+@RequestMapping("/account")
 public class AccountController {
     AccountService accountService;
 
@@ -18,21 +15,23 @@ public class AccountController {
         this.accountService = accountService;
     }
 
-    @RequestMapping(value = "/account", method = RequestMethod.GET)
-    public Account[] getAccount(@RequestParam(value = "id") int id) {
-        if (id >= 0)
-            return new Account[]{accountService.getAccountByID(id)};
-        else
-            return accountService.selectAll();
+    @RequestMapping(method = RequestMethod.GET, path = "")
+    public Account[] getAccountAll() {
+        return accountService.selectAll();
     }
 
-    @RequestMapping(value = "/account", method = RequestMethod.POST)
-    public int addAccount(@RequestParam(value = "name") String name) {
-        return accountService.createAccount(name);
+    @RequestMapping(method = RequestMethod.GET, path = "/{accountId}")
+    public Account[] getAccount(@PathVariable int accountId) {
+        return new Account[]{accountService.getAccountByID(accountId)};
     }
 
-    @RequestMapping(value = "/account", method = RequestMethod.DELETE)
-    public int deleteAccount(@RequestParam(value = "id") int id) {
-        return accountService.deleteAccount(id);
+    @RequestMapping(method = RequestMethod.POST)
+    public int addAccount(@RequestBody Account account) {
+        return accountService.createAccount(account);
+    }
+
+    @RequestMapping(method = RequestMethod.DELETE, path = "/{accountId}")
+    public int deleteAccount(@PathVariable int accountId) {
+        return accountService.deleteAccount(accountId);
     }
 }

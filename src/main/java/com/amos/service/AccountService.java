@@ -5,11 +5,11 @@ import org.springframework.stereotype.Component;
 
 @Component
 public interface AccountService {
-    Account getAccountByID(int id);
+    Account getAccountByID(int accountId);
 
-    int createAccount(String name);
+    int createAccount(Account account);
 
-    int deleteAccount(int id);
+    int deleteAccount(int accountId);
 
     Account[] selectAll();
 }

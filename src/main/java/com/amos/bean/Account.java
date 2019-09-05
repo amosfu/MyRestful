@@ -1,11 +1,16 @@
 package com.amos.bean;
+import org.springframework.hateoas.ResourceSupport;
 
-public class Account {
-    private int id;
+import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonProperty;
+public class Account extends ResourceSupport{
+    private int accountId;
     private String name;
 
-    private Account(int id, String name) {
-        this.id = id;
+    public Account(){};
+
+    private Account(int acountId, String name) {
+        this.accountId = accountId;
         this.name = name;
     }
 
@@ -25,12 +30,12 @@ public class Account {
         }
     }
 
-    public int getId() {
-        return id;
+    public int getAccountId() {
+        return accountId;
     }
 
-    public void setId(int id) {
-        this.id = id;
+    public void setAccountId(int accountId) {
+        this.accountId = accountId;
     }
 
     public String getName() {

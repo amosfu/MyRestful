@@ -14,24 +14,19 @@ public class AccountServiceImpl implements AccountService {
         this.accountMapper = accountMapper;
     }
 
-    @Override
-    public Account getAccountByID(int id) {
-        return this.accountMapper.selectAccountByID(id);
+    public Account getAccountByID(int accountId) {
+        return this.accountMapper.selectAccountByID(accountId);
     }
 
-    @Override
-    public int createAccount(String name) {
-        Account insertObj = new Account.Builder(name).build();
-        accountMapper.insertAccount(insertObj);
-        return insertObj.getId();
+    public int createAccount(Account account) {
+        accountMapper.insertAccount(account);
+        return account.getAccountId();
     }
 
-    @Override
-    public int deleteAccount(int id) {
-        return accountMapper.deleteAccountByID(id);
+    public int deleteAccount(int accountId) {
+        return accountMapper.deleteAccountByID(accountId);
     }
 
-    @Override
     public Account[] selectAll() {
         return accountMapper.selectAll();
     }
