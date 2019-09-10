@@ -23,6 +23,10 @@ public class AccountServiceImpl implements AccountService {
         return account.getAccountId();
     }
 
+    public int createUpdateAccount(Account account) {
+        return accountMapper.insertUpdateAccount(account);
+    }
+
     public int deleteAccount(int accountId) {
         return accountMapper.deleteAccountByID(accountId);
     }

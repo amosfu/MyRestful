@@ -1,22 +1,23 @@
 package com.amos.bean;
 import org.springframework.hateoas.ResourceSupport;
 
-import com.fasterxml.jackson.annotation.JsonCreator;
-import com.fasterxml.jackson.annotation.JsonProperty;
 public class Account extends ResourceSupport{
     private int accountId;
     private String name;
+    private String password;
 
-    public Account(){};
+    public Account(){}
 
-    private Account(int acountId, String name) {
+    private Account(int accountId, String name, String password) {
         this.accountId = accountId;
         this.name = name;
+        this.password = password;
     }
 
     public static class Builder{
         private int id;
         private String name;
+        private String password;
 
         public Builder(String name){
             this.name = name;
@@ -25,8 +26,12 @@ public class Account extends ResourceSupport{
             this.id = id;
             return this;
         }
+        public Builder password(String password){
+            this.password = password;
+            return this;
+        }
         public Account build(){
-            return new Account(id,name);
+            return new Account(id,name,password);
         }
     }
 
@@ -44,5 +49,13 @@ public class Account extends ResourceSupport{
 
     public void setName(String name) {
         this.name = name;
+    }
+
+    public String getPassword() {
+        return password;
+    }
+
+    public void setPassword(String password) {
+        this.password = password;
     }
 }

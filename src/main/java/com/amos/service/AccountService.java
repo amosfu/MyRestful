@@ -9,6 +9,8 @@ public interface AccountService {
 
     int createAccount(Account account);
 
+    int createUpdateAccount(Account account);
+
     int deleteAccount(int accountId);
 
     Account[] selectAll();

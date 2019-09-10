@@ -6,7 +6,6 @@
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://mybatis.org/schema/mybatis-spring http://mybatis.org/schema/mybatis-spring.xsd http://www.springframework.org/schema/context https://www.springframework.org/schema/context/spring-context.xsd">
 
     <context:property-placeholder location="classpath*:application.properties"/>
-    <mybatis:scan base-package="com.amos.mapper" factory-ref="sqlSessionFactory" />
 
     <bean name="mysql57_localhost" class="org.springframework.jdbc.datasource.DriverManagerDataSource">
         <property name="driverClassName" value="${jdbc.driverClassName}" />
@@ -18,5 +17,9 @@
     <bean id="sqlSessionFactory" class="org.mybatis.spring.SqlSessionFactoryBean">
         <property name="dataSource" ref="mysql57_localhost" />
     </bean>
+
+    <mybatis:scan base-package="com.amos.mapper" factory-ref="sqlSessionFactory" />
+
+
 
 </beans>

@@ -5,6 +5,8 @@ import com.amos.service.AccountService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
+import javax.servlet.http.HttpServletRequest;
+
 @RestController
 @RequestMapping("/account")
 public class AccountController {
@@ -16,7 +18,8 @@ public class AccountController {
     }
 
     @RequestMapping(method = RequestMethod.GET, path = "")
-    public Account[] getAccountAll() {
+    public Account[] getAccountAll(HttpServletRequest request) {
+        // can do sth with HttpRequests
         return accountService.selectAll();
     }
 
@@ -26,8 +29,14 @@ public class AccountController {
     }
 
     @RequestMapping(method = RequestMethod.POST)
-    public int addAccount(@RequestBody Account account) {
+    public int createAccount(@RequestBody Account account) {
         return accountService.createAccount(account);
+    }
+
+    @RequestMapping(method = RequestMethod.PUT, path = "/{accountId}" )
+    public int createUpdateAccount(@PathVariable int accountId, @RequestBody Account account) {
+        account.setAccountId(accountId);
+        return accountService.createUpdateAccount(account);
     }
 
     @RequestMapping(method = RequestMethod.DELETE, path = "/{accountId}")
