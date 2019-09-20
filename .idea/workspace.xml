@@ -6,12 +6,24 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dcad9f0b-af6b-47eb-a117-13626cef228d" name="Default Changelist" comment="" />
+    <list default="true" id="dcad9f0b-af6b-47eb-a117-13626cef228d" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/MyRestful/WEB-INF/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/MyRestful/WEB-INF/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/MyRestful/WEB-INF/classes/com/amos/controller/GreetingController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/MyRestful/WEB-INF/classes/com/amos/controller/GreetingController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/MyRestful/api.war" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/MyRestful/api.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/amos/controller/GreetingController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/amos/controller/GreetingController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/amos/controller/GreetingController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/amos/controller/GreetingController.class" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
   </component>
   <component name="DefaultGradleProjectSettings">
     <option name="isMigrated" value="true" />
@@ -32,20 +44,6 @@
       </list>
     </option>
   </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>ContextLoaderListener</find>
-      <find>spring</find>
-      <find>String</find>
-      <find>com.amos.service.AccountService</find>
-      <find>@Autowired</find>
-      <find>accountMapper</find>
-      <find>org.springframework.web.servlet</find>
-    </findStrings>
-    <dirStrings>
-      <dir>C:\Users\fs198\OneDrive - syndicate magnetic synergies\Documents\workspace\idea\MyRestful\out\artifacts</dir>
-    </dirStrings>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -64,6 +62,9 @@
       </MavenImportingSettings>
     </option>
   </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
   <component name="ProjectId" id="1QnjfmbSH8bKwi2QnXbcuJH0QMi" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -77,7 +78,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../test" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -281,7 +282,13 @@
       <workItem from="1568138997011" duration="1377000" />
       <workItem from="1568244396656" duration="4000" />
       <workItem from="1568412668743" duration="533000" />
-      <workItem from="1568413367712" duration="690000" />
+      <workItem from="1568413367712" duration="1601000" />
+      <workItem from="1568605010227" duration="4000" />
+      <workItem from="1568745855107" duration="1358000" />
+      <workItem from="1568753287830" duration="1061000" />
+      <workItem from="1568832473908" duration="207000" />
+      <workItem from="1568984357007" duration="5089000" />
+      <workItem from="1569004771946" duration="26000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1566161876205</created>
@@ -507,7 +514,14 @@
       <option name="project" value="LOCAL" />
       <updated>1568413910445</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="initial commit">
+      <created>1568414064660</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1568414064660</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
